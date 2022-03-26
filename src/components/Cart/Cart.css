@@ -3,3 +3,15 @@
     top: 0;
     padding: 30px 20px;
 }
+
+button{
+    background-color: aquamarine;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: orangered;
+    cursor: pointer;
+}

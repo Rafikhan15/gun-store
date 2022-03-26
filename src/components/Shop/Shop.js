@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { addToDb, getStoreCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import Question from '../Question1/Question1';
+import Question2 from '../Question2/Question2';
 
 
 
@@ -61,6 +63,8 @@ const Shop = () => {
                     ></Product>)
 
                 }
+                <Question></Question>
+                <Question2></Question2>
 
 
 
