@@ -25,7 +25,11 @@ const Cart = (props) => {
         alert(item.name);
         // <ChoooseProduct item={item}></ChoooseProduct>
 
+
+
     }
+
+    const []
 
 
     return (
