@@ -4,12 +4,13 @@ import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import Question from '../Question1/Question1';
 import Question2 from '../Question2/Question2';
+import Question3 from '../Question3/Question3';
 
 
 
 import './Shop.css'
 
-const Shop = () => {
+const Shop = (props) => {
     const [products, setProducts] = useState([])
     let [cart, setCart] = useState([])
     // console.log(products);
@@ -52,6 +53,12 @@ const Shop = () => {
         addToDb(selectedProduct.id)
     }
 
+    const chooseAgain = () => {
+
+        setCart('');
+
+    }
+
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -65,6 +72,7 @@ const Shop = () => {
                 }
                 <Question></Question>
                 <Question2></Question2>
+                <Question3></Question3>
 
 
 
